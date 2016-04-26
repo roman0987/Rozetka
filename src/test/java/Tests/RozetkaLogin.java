@@ -34,6 +34,7 @@ public class RozetkaLogin {
     @Test
     public void RozetkaLogin() throws InterruptedException {
         //this is login test for Rozetka
+        //Second commit
         RozetkaLoginPage loginPage = new RozetkaLoginPage(driver);
         loginPage.login(userEmail, userPassword);
         Thread.sleep(1000);
